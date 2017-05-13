@@ -1,4 +1,4 @@
-# ![alt text](http://kultprosvetmag.ru/bitrix/templates/adeve/images/prosvet-logo.png) **Prosvet**
+# ![alt text](http://kultprosvetmag.ru/bitrix/templates/adeve/images/prosvet-logo.png) Prosvet
 
 App for kultprosvetmag.ru
 
