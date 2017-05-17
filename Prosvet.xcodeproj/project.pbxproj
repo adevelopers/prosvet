@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710DB5FE1ECC55CB00A89F50 /* token.api in Resources */ = {isa = PBXBuildFile; fileRef = 710DB5FD1ECC55CB00A89F50 /* token.api */; };
+		71A31A6F1EAA464F0073CD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A6E1EAA464F0073CD04 /* Main.storyboard */; };
+		71A31A771EAA49BC0073CD04 /* PostDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */; };
+		71A31A7C1EAA4B0E0073CD04 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A7B1EAA4B0E0073CD04 /* PostDetail.swift */; };
+		71A31A7E1EAA4C3A0073CD04 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A7D1EAA4C3A0073CD04 /* PostList.swift */; };
+		71A31A811EAA4CF90073CD04 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A801EAA4CF90073CD04 /* MainCell.swift */; };
+		71A31A831EAA4CFE0073CD04 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A821EAA4CFE0073CD04 /* MainCell.xib */; };
+		71A31A851EAA50870073CD04 /* SegueRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A841EAA50870073CD04 /* SegueRight.swift */; };
+		71A31A891EAB5EB20073CD04 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A8B1EAB5EB20073CD04 /* Localizable.strings */; };
+		71C058AB1EA7D17E0010ED42 /* NetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C058AA1EA7D17E0010ED42 /* NetModel.swift */; };
+		71DFDF3E1EA53432007BABAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFDF3D1EA53432007BABAE /* AppDelegate.swift */; };
+		71DFDF401EA53432007BABAE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFDF3F1EA53432007BABAE /* MainVC.swift */; };
+		71DFDF461EA53432007BABAE /* Prosvet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71DFDF441EA53432007BABAE /* Prosvet.xcdatamodeld */; };
+		71DFDF481EA53432007BABAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DFDF471EA53432007BABAE /* Assets.xcassets */; };
+		71DFDF4B1EA53432007BABAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DFDF491EA53432007BABAE /* LaunchScreen.storyboard */; };
+		71DFDF8D1EA7BC20007BABAE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFDF8C1EA7BC20007BABAE /* SwiftyJSON.swift */; };
+		71DFDF8F1EA7BC2C007BABAE /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFDF8E1EA7BC2C007BABAE /* CheckInternet.swift */; };
+		71DFDF911EA7BC38007BABAE /* NetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFDF901EA7BC38007BABAE /* NetApi.swift */; };
+		71F2A2CB1EABCE4100B280B0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F2A2CA1EABCE4100B280B0 /* String.swift */; };
+		71F2A2CD1EABCECC00B280B0 /* LounchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F2A2CC1EABCECC00B280B0 /* LounchScreen.swift */; };
+		99837421F3237EE41E96DE4C /* Pods_Prosvet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6342F6CD5401E9D6FA6D662F /* Pods_Prosvet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71C4BC0C1EA80E8F00367DDC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F34A09217ACE79F92083F61 /* Pods-Prosvet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prosvet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prosvet/Pods-Prosvet.debug.xcconfig"; sourceTree = "<group>"; };
+		6342F6CD5401E9D6FA6D662F /* Pods_Prosvet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prosvet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		710DB5FD1ECC55CB00A89F50 /* token.api */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = token.api; sourceTree = SOURCE_ROOT; };
+		71A31A6E1EAA464F0073CD04 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PostDetail.storyboard; sourceTree = "<group>"; };
+		71A31A7B1EAA4B0E0073CD04 /* PostDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
+		71A31A7D1EAA4C3A0073CD04 /* PostList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		71A31A801EAA4CF90073CD04 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		71A31A821EAA4CFE0073CD04 /* MainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
+		71A31A841EAA50870073CD04 /* SegueRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueRight.swift; sourceTree = "<group>"; };
+		71C058AA1EA7D17E0010ED42 /* NetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetModel.swift; sourceTree = "<group>"; };
+		71DFDF3A1EA53432007BABAE /* Prosvet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prosvet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DFDF3D1EA53432007BABAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71DFDF3F1EA53432007BABAE /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		71DFDF451EA53432007BABAE /* Prosvet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prosvet.xcdatamodel; sourceTree = "<group>"; };
+		71DFDF471EA53432007BABAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71DFDF4A1EA53432007BABAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71DFDF4C1EA53432007BABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71DFDF8C1EA7BC20007BABAE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		71DFDF8E1EA7BC2C007BABAE /* CheckInternet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		71DFDF901EA7BC38007BABAE /* NetApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetApi.swift; sourceTree = "<group>"; };
+		71F2A2C51EABBB2D00B280B0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F2A2C61EABC8DE00B280B0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71F2A2C71EABCA7400B280B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71F2A2C81EABCB2F00B280B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71F2A2CA1EABCE4100B280B0 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		71F2A2CC1EABCECC00B280B0 /* LounchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LounchScreen.swift; sourceTree = "<group>"; };
+		BC40453152C2FE9C0002C625 /* Pods-Prosvet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prosvet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prosvet/Pods-Prosvet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71DFDF371EA53432007BABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99837421F3237EE41E96DE4C /* Pods_Prosvet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36A85895B42D72D3A601F4BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F34A09217ACE79F92083F61 /* Pods-Prosvet.debug.xcconfig */,
+				BC40453152C2FE9C0002C625 /* Pods-Prosvet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71A31A781EAA4AD50073CD04 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				71A31A7A1EAA4B020073CD04 /* Controllers */,
+				71A31A791EAA4ADC0073CD04 /* Views */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		71A31A791EAA4ADC0073CD04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71A31A7A1EAA4B020073CD04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71A31A7B1EAA4B0E0073CD04 /* PostDetail.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71A31A7F1EAA4CEE0073CD04 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				71A31A801EAA4CF90073CD04 /* MainCell.swift */,
+				71A31A821EAA4CFE0073CD04 /* MainCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		71A31A861EAB5DED0073CD04 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				71A31A8B1EAB5EB20073CD04 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		71DFDF311EA53431007BABAE = {
+			isa = PBXGroup;
+			children = (
+				71DFDF921EA7BCC6007BABAE /* Frameworks */,
+				36A85895B42D72D3A601F4BE /* Pods */,
+				71DFDF3B1EA53432007BABAE /* Products */,
+				71DFDF3C1EA53432007BABAE /* Prosvet */,
+			);
+			sourceTree = "<group>";
+		};
+		71DFDF3B1EA53432007BABAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71DFDF3A1EA53432007BABAE /* Prosvet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71DFDF3C1EA53432007BABAE /* Prosvet */ = {
+			isa = PBXGroup;
+			children = (
+				71DFDF541EA53647007BABAE /* Common */,
+				71A31A861EAB5DED0073CD04 /* Localization */,
+				71A31A781EAA4AD50073CD04 /* PostDetail */,
+				71DFDF521EA5358B007BABAE /* SplashScreen */,
+				71DFDF531EA5363A007BABAE /* Supporting Files */,
+				71A31A841EAA50870073CD04 /* SegueRight.swift */,
+			);
+			path = Prosvet;
+			sourceTree = "<group>";
+		};
+		71DFDF521EA5358B007BABAE /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				71DFDF491EA53432007BABAE /* LaunchScreen.storyboard */,
+				71F2A2CC1EABCECC00B280B0 /* LounchScreen.swift */,
+				71A31A6E1EAA464F0073CD04 /* Main.storyboard */,
+				71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		71DFDF531EA5363A007BABAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				710DB5FD1ECC55CB00A89F50 /* token.api */,
+				71DFDF3D1EA53432007BABAE /* AppDelegate.swift */,
+				71DFDF471EA53432007BABAE /* Assets.xcassets */,
+				71DFDF4C1EA53432007BABAE /* Info.plist */,
+				71DFDF441EA53432007BABAE /* Prosvet.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71DFDF541EA53647007BABAE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				71DFDF561EA5365A007BABAE /* Controllers */,
+				71F2A2C91EABCE1E00B280B0 /* Localize */,
+				71DFDF571EA53661007BABAE /* Models */,
+				71DFDF8B1EA7B560007BABAE /* Network */,
+				71DFDF551EA53650007BABAE /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		71DFDF551EA53650007BABAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71DFDF561EA5365A007BABAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71DFDF3F1EA53432007BABAE /* MainVC.swift */,
+				71A31A7D1EAA4C3A0073CD04 /* PostList.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71DFDF571EA53661007BABAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71A31A7F1EAA4CEE0073CD04 /* Cells */,
+				71C058AA1EA7D17E0010ED42 /* NetModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71DFDF8B1EA7B560007BABAE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				71DFDF8E1EA7BC2C007BABAE /* CheckInternet.swift */,
+				71DFDF901EA7BC38007BABAE /* NetApi.swift */,
+				71DFDF8C1EA7BC20007BABAE /* SwiftyJSON.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		71DFDF921EA7BCC6007BABAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6342F6CD5401E9D6FA6D662F /* Pods_Prosvet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71F2A2C91EABCE1E00B280B0 /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				71F2A2CA1EABCE4100B280B0 /* String.swift */,
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71DFDF391EA53432007BABAE /* Prosvet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DFDF4F1EA53432007BABAE /* Build configuration list for PBXNativeTarget "Prosvet" */;
+			buildPhases = (
+				EA08A8CA05EBF8311FFE1031 /* [CP] Check Pods Manifest.lock */,
+				71DFDF361EA53432007BABAE /* Sources */,
+				71DFDF371EA53432007BABAE /* Frameworks */,
+				71DFDF381EA53432007BABAE /* Resources */,
+				71C4BC0C1EA80E8F00367DDC /* Embed Frameworks */,
+				0131EA758A0A0399B1E7E8D2 /* [CP] Embed Pods Frameworks */,
+				80BBC30124A918909028F03F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prosvet;
+			productName = Prosvet;
+			productReference = 71DFDF3A1EA53432007BABAE /* Prosvet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71DFDF321EA53431007BABAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = adeveloper;
+				TargetAttributes = {
+					71DFDF391EA53432007BABAE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = RF42FG352F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71DFDF351EA53431007BABAE /* Build configuration list for PBXProject "Prosvet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 71DFDF311EA53431007BABAE;
+			productRefGroup = 71DFDF3B1EA53432007BABAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71DFDF391EA53432007BABAE /* Prosvet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71DFDF381EA53432007BABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A31A6F1EAA464F0073CD04 /* Main.storyboard in Resources */,
+				71A31A771EAA49BC0073CD04 /* PostDetail.storyboard in Resources */,
+				71DFDF4B1EA53432007BABAE /* LaunchScreen.storyboard in Resources */,
+				71A31A831EAA4CFE0073CD04 /* MainCell.xib in Resources */,
+				71A31A891EAB5EB20073CD04 /* Localizable.strings in Resources */,
+				710DB5FE1ECC55CB00A89F50 /* token.api in Resources */,
+				71DFDF481EA53432007BABAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0131EA758A0A0399B1E7E8D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prosvet/Pods-Prosvet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BBC30124A918909028F03F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prosvet/Pods-Prosvet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA08A8CA05EBF8311FFE1031 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71DFDF361EA53432007BABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DFDF911EA7BC38007BABAE /* NetApi.swift in Sources */,
+				71A31A7E1EAA4C3A0073CD04 /* PostList.swift in Sources */,
+				71DFDF8F1EA7BC2C007BABAE /* CheckInternet.swift in Sources */,
+				71F2A2CD1EABCECC00B280B0 /* LounchScreen.swift in Sources */,
+				71DFDF401EA53432007BABAE /* MainVC.swift in Sources */,
+				71A31A811EAA4CF90073CD04 /* MainCell.swift in Sources */,
+				71DFDF461EA53432007BABAE /* Prosvet.xcdatamodeld in Sources */,
+				71F2A2CB1EABCE4100B280B0 /* String.swift in Sources */,
+				71A31A7C1EAA4B0E0073CD04 /* PostDetail.swift in Sources */,
+				71DFDF3E1EA53432007BABAE /* AppDelegate.swift in Sources */,
+				71DFDF8D1EA7BC20007BABAE /* SwiftyJSON.swift in Sources */,
+				71C058AB1EA7D17E0010ED42 /* NetModel.swift in Sources */,
+				71A31A851EAA50870073CD04 /* SegueRight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71A31A8B1EAB5EB20073CD04 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F2A2C81EABCB2F00B280B0 /* Base */,
+				71F2A2C71EABCA7400B280B0 /* en */,
+				71F2A2C61EABC8DE00B280B0 /* ru */,
+			);
+			name = Localizable.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+		71DFDF491EA53432007BABAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71DFDF4A1EA53432007BABAE /* Base */,
+				71F2A2C51EABBB2D00B280B0 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71DFDF4D1EA53432007BABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71DFDF4E1EA53432007BABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71DFDF501EA53432007BABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F34A09217ACE79F92083F61 /* Pods-Prosvet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RF42FG352F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Prosvet/Supporting\\ Files/Frameworks",
+					"$(PROJECT_DIR)/Prosvet/Supporting\\ Files/Frameworks",
+					"$(PROJECT_DIR)/Prosvet/Supporting\\ Files/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Prosvet/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.Prosvet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71DFDF511EA53432007BABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC40453152C2FE9C0002C625 /* Pods-Prosvet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RF42FG352F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Prosvet/Supporting\\ Files/Frameworks",
+					"$(PROJECT_DIR)/Prosvet/Supporting\\ Files/Frameworks",
+					"$(PROJECT_DIR)/Prosvet/Supporting\\ Files/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Prosvet/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.Prosvet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71DFDF351EA53431007BABAE /* Build configuration list for PBXProject "Prosvet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DFDF4D1EA53432007BABAE /* Debug */,
+				71DFDF4E1EA53432007BABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		71DFDF4F1EA53432007BABAE /* Build configuration list for PBXNativeTarget "Prosvet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DFDF501EA53432007BABAE /* Debug */,
+				71DFDF511EA53432007BABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71DFDF441EA53432007BABAE /* Prosvet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71DFDF451EA53432007BABAE /* Prosvet.xcdatamodel */,
+			);
+			currentVersion = 71DFDF451EA53432007BABAE /* Prosvet.xcdatamodel */;
+			path = Prosvet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71DFDF321EA53431007BABAE /* Project object */;
+}
