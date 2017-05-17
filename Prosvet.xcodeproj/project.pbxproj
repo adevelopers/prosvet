@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		710DB5FE1ECC55CB00A89F50 /* token.api in Resources */ = {isa = PBXBuildFile; fileRef = 710DB5FD1ECC55CB00A89F50 /* token.api */; };
+		710DB6061ECCBE6E00A89F50 /* ProsvetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB6051ECCBE6E00A89F50 /* ProsvetTests.swift */; };
+		710DB60F1ECCC02100A89F50 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB60E1ECCC02100A89F50 /* Constants.swift */; };
 		71A31A6F1EAA464F0073CD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A6E1EAA464F0073CD04 /* Main.storyboard */; };
 		71A31A771EAA49BC0073CD04 /* PostDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */; };
 		71A31A7C1EAA4B0E0073CD04 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A7B1EAA4B0E0073CD04 /* PostDetail.swift */; };
@@ -30,6 +32,16 @@
 		99837421F3237EE41E96DE4C /* Pods_Prosvet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6342F6CD5401E9D6FA6D662F /* Pods_Prosvet.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		710DB6081ECCBE6E00A89F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71DFDF321EA53431007BABAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71DFDF391EA53432007BABAE;
+			remoteInfo = Prosvet;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		71C4BC0C1EA80E8F00367DDC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -47,6 +59,10 @@
 		1F34A09217ACE79F92083F61 /* Pods-Prosvet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prosvet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prosvet/Pods-Prosvet.debug.xcconfig"; sourceTree = "<group>"; };
 		6342F6CD5401E9D6FA6D662F /* Pods_Prosvet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prosvet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710DB5FD1ECC55CB00A89F50 /* token.api */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = token.api; sourceTree = SOURCE_ROOT; };
+		710DB6031ECCBE6E00A89F50 /* ProsvetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProsvetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		710DB6051ECCBE6E00A89F50 /* ProsvetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsvetTests.swift; sourceTree = "<group>"; };
+		710DB6071ECCBE6E00A89F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710DB60E1ECCC02100A89F50 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		71A31A6E1EAA464F0073CD04 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PostDetail.storyboard; sourceTree = "<group>"; };
 		71A31A7B1EAA4B0E0073CD04 /* PostDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
@@ -75,6 +91,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		710DB6001ECCBE6E00A89F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71DFDF371EA53432007BABAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +116,23 @@
 				BC40453152C2FE9C0002C625 /* Pods-Prosvet.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		710DB6041ECCBE6E00A89F50 /* ProsvetTests */ = {
+			isa = PBXGroup;
+			children = (
+				710DB6051ECCBE6E00A89F50 /* ProsvetTests.swift */,
+				710DB6071ECCBE6E00A89F50 /* Info.plist */,
+			);
+			path = ProsvetTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		710DB60D1ECCBFFA00A89F50 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				710DB60E1ECCC02100A89F50 /* Constants.swift */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 		71A31A781EAA4AD50073CD04 /* PostDetail */ = {
@@ -143,6 +183,7 @@
 				36A85895B42D72D3A601F4BE /* Pods */,
 				71DFDF3B1EA53432007BABAE /* Products */,
 				71DFDF3C1EA53432007BABAE /* Prosvet */,
+				710DB6041ECCBE6E00A89F50 /* ProsvetTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				71DFDF3A1EA53432007BABAE /* Prosvet.app */,
+				710DB6031ECCBE6E00A89F50 /* ProsvetTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +235,7 @@
 		71DFDF541EA53647007BABAE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				710DB60D1ECCBFFA00A89F50 /* Constants */,
 				71DFDF561EA5365A007BABAE /* Controllers */,
 				71F2A2C91EABCE1E00B280B0 /* Localize */,
 				71DFDF571EA53661007BABAE /* Models */,
@@ -256,6 +299,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		710DB6021ECCBE6E00A89F50 /* ProsvetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710DB60A1ECCBE6E00A89F50 /* Build configuration list for PBXNativeTarget "ProsvetTests" */;
+			buildPhases = (
+				710DB5FF1ECCBE6E00A89F50 /* Sources */,
+				710DB6001ECCBE6E00A89F50 /* Frameworks */,
+				710DB6011ECCBE6E00A89F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710DB6091ECCBE6E00A89F50 /* PBXTargetDependency */,
+			);
+			name = ProsvetTests;
+			productName = ProsvetTests;
+			productReference = 710DB6031ECCBE6E00A89F50 /* ProsvetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		71DFDF391EA53432007BABAE /* Prosvet */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71DFDF4F1EA53432007BABAE /* Build configuration list for PBXNativeTarget "Prosvet" */;
@@ -287,6 +348,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = adeveloper;
 				TargetAttributes = {
+					710DB6021ECCBE6E00A89F50 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RF42FG352F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71DFDF391EA53432007BABAE;
+					};
 					71DFDF391EA53432007BABAE = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = RF42FG352F;
@@ -309,11 +376,19 @@
 			projectRoot = "";
 			targets = (
 				71DFDF391EA53432007BABAE /* Prosvet */,
+				710DB6021ECCBE6E00A89F50 /* ProsvetTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		710DB6011ECCBE6E00A89F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71DFDF381EA53432007BABAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,6 +454,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		710DB5FF1ECCBE6E00A89F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710DB6061ECCBE6E00A89F50 /* ProsvetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71DFDF361EA53432007BABAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,12 +477,21 @@
 				71A31A7C1EAA4B0E0073CD04 /* PostDetail.swift in Sources */,
 				71DFDF3E1EA53432007BABAE /* AppDelegate.swift in Sources */,
 				71DFDF8D1EA7BC20007BABAE /* SwiftyJSON.swift in Sources */,
+				710DB60F1ECCC02100A89F50 /* Constants.swift in Sources */,
 				71C058AB1EA7D17E0010ED42 /* NetModel.swift in Sources */,
 				71A31A851EAA50870073CD04 /* SegueRight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		710DB6091ECCBE6E00A89F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71DFDF391EA53432007BABAE /* Prosvet */;
+			targetProxy = 710DB6081ECCBE6E00A89F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		71A31A8B1EAB5EB20073CD04 /* Localizable.strings */ = {
@@ -426,6 +518,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		710DB60B1ECCBE6E00A89F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RF42FG352F;
+				INFOPLIST_FILE = ProsvetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.ProsvetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prosvet.app/Prosvet";
+			};
+			name = Debug;
+		};
+		710DB60C1ECCBE6E00A89F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RF42FG352F;
+				INFOPLIST_FILE = ProsvetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.ProsvetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prosvet.app/Prosvet";
+			};
+			name = Release;
+		};
 		71DFDF4D1EA53432007BABAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -568,6 +688,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		710DB60A1ECCBE6E00A89F50 /* Build configuration list for PBXNativeTarget "ProsvetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710DB60B1ECCBE6E00A89F50 /* Debug */,
+				710DB60C1ECCBE6E00A89F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		71DFDF351EA53431007BABAE /* Build configuration list for PBXProject "Prosvet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
