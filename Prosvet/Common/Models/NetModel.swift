@@ -69,7 +69,7 @@ struct NetModel: NetProsvetProtocol {
         case FILE_TOKEN_EXCEPTION
     }
     
-    let baseUrl:String = "http://kultprosvetmag.ru/api/v1/"
+    let baseUrl:String = Constants.baseUrlApi
     var token:String {
         return loadToken()
     }
@@ -112,9 +112,9 @@ struct NetModel: NetProsvetProtocol {
     
     func npGetPost(by id:ID, _ onCompletion: @escaping (Post) -> Void)  {
         let api = NetApi.shared
-        api.baseUrl =  self.baseUrl
+        
         var post = Post()
-        api.get(link: "?action=getitem&token=\(token)&id=\(id)"){
+        api.setBase(self.baseUrl).get(link: "?action=getitem&token=\(token)&id=\(id)"){
             json, errors in
             if !json.isEmpty {
                 let title = json["NAME"]
@@ -136,13 +136,15 @@ struct NetModel: NetProsvetProtocol {
                 
                 for (_, item) in json {
                     let title = item["NAME"].stringValue
-                    let text = item["DETAIL_TEXT"].stringValue
+                    
                     post.id = Int(item["ID"].description)!
                     post.title = title
-                    post.text = text
+                    if item["DETAIL_TEXT"].exists() {
+                        post.text = item["DETAIL_TEXT"].stringValue
+                    }
                     posts.append(post)
                 }
-                
+
                 onCompletion(posts)
             }
            
