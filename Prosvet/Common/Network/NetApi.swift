@@ -18,7 +18,7 @@ class NetApi {
     
     static let shared = NetApi()
     
-    public var baseUrl:String = ""
+    private var baseUrl:String = ""
     
     private init(){
         
