@@ -35,7 +35,7 @@ class PostDetail: UIViewController {
     
     func setupUI(){
 
-        uiBack.setTitle("Three".localized, for: .normal)
+        uiBack.setTitle("back".localized, for: .normal)
     }
 
     
