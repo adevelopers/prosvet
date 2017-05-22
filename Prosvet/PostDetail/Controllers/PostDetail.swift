@@ -23,6 +23,8 @@ class PostDetail: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        _ = AppUserSettings.shared.canOpenDevMenu
+        
         setupUI()
         
         if post != nil {
@@ -44,5 +46,12 @@ class PostDetail: UIViewController {
     }
 
  
+    
+    @IBAction func clickSettings(_ sender: Any) {
+        AppUserSettings.shared.canOpenDevMenu = true
+        
+        
+        
+    }
 
 }

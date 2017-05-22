@@ -16,10 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let n = 4.0
+        let n = 2.0
         Thread.sleep(forTimeInterval: n)
         
+        let userKey = "Kirill"
+        let md5hash = Md5.from(userKey)
+        print("md5: \(md5hash)")
         
+        if AppUserSettings.shared.canOpenDevMenu {
+           
+        }
+
         
         return true
     }

@@ -48,7 +48,6 @@ extension MainVC: UITableViewDataSource {
         return posts.count
     }
     
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = Bundle.main.loadNibNamed("MainCell", owner: self, options: nil)?.first as! MainCell        
         let title = posts[indexPath.row].title

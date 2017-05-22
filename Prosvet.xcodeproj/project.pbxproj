@@ -10,8 +10,14 @@
 		710DB5FE1ECC55CB00A89F50 /* token.api in Resources */ = {isa = PBXBuildFile; fileRef = 710DB5FD1ECC55CB00A89F50 /* token.api */; };
 		710DB6061ECCBE6E00A89F50 /* ProsvetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB6051ECCBE6E00A89F50 /* ProsvetTests.swift */; };
 		710DB60F1ECCC02100A89F50 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB60E1ECCC02100A89F50 /* Constants.swift */; };
-		71A31A6F1EAA464F0073CD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A6E1EAA464F0073CD04 /* Main.storyboard */; };
-		71A31A771EAA49BC0073CD04 /* PostDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */; };
+		710DB6861ED1AA5900A89F50 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB6851ED1AA5900A89F50 /* CellViewModel.swift */; };
+		710DB6891ED1AEF800A89F50 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB6881ED1AEF800A89F50 /* Post.swift */; };
+		710DB68D1ED1B88A00A89F50 /* Event+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB68B1ED1B88A00A89F50 /* Event+CoreDataClass.swift */; };
+		710DB68E1ED1B88A00A89F50 /* Event+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB68C1ED1B88A00A89F50 /* Event+CoreDataProperties.swift */; };
+		710DB6971ED2ECC400A89F50 /* Md5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB6961ED2ECC400A89F50 /* Md5.swift */; };
+		710DB69C1ED2F5F500A89F50 /* AppUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710DB69B1ED2F5F500A89F50 /* AppUserSettings.swift */; };
+		710DB69E1ED3028500A89F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710DB69D1ED3028500A89F50 /* Main.storyboard */; };
+		710DB6A01ED302BB00A89F50 /* PostDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710DB69F1ED302BB00A89F50 /* PostDetail.storyboard */; };
 		71A31A7C1EAA4B0E0073CD04 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A7B1EAA4B0E0073CD04 /* PostDetail.swift */; };
 		71A31A7E1EAA4C3A0073CD04 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A7D1EAA4C3A0073CD04 /* PostList.swift */; };
 		71A31A811EAA4CF90073CD04 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A31A801EAA4CF90073CD04 /* MainCell.swift */; };
@@ -58,13 +64,20 @@
 /* Begin PBXFileReference section */
 		1F34A09217ACE79F92083F61 /* Pods-Prosvet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prosvet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prosvet/Pods-Prosvet.debug.xcconfig"; sourceTree = "<group>"; };
 		6342F6CD5401E9D6FA6D662F /* Pods_Prosvet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prosvet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		710DB5FD1ECC55CB00A89F50 /* token.api */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = token.api; sourceTree = SOURCE_ROOT; };
+		710DB5FD1ECC55CB00A89F50 /* token.api */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = token.api; sourceTree = "<group>"; };
 		710DB6031ECCBE6E00A89F50 /* ProsvetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProsvetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710DB6051ECCBE6E00A89F50 /* ProsvetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsvetTests.swift; sourceTree = "<group>"; };
 		710DB6071ECCBE6E00A89F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710DB60E1ECCC02100A89F50 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		71A31A6E1EAA464F0073CD04 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PostDetail.storyboard; sourceTree = "<group>"; };
+		710DB6851ED1AA5900A89F50 /* CellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		710DB6881ED1AEF800A89F50 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		710DB68B1ED1B88A00A89F50 /* Event+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataClass.swift"; sourceTree = "<group>"; };
+		710DB68C1ED1B88A00A89F50 /* Event+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		710DB6961ED2ECC400A89F50 /* Md5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Md5.swift; sourceTree = "<group>"; };
+		710DB6991ED2F0E300A89F50 /* Md5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Md5-Bridging-Header.h"; sourceTree = "<group>"; };
+		710DB69B1ED2F5F500A89F50 /* AppUserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserSettings.swift; sourceTree = "<group>"; };
+		710DB69D1ED3028500A89F50 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		710DB69F1ED302BB00A89F50 /* PostDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PostDetail.storyboard; sourceTree = "<group>"; };
 		71A31A7B1EAA4B0E0073CD04 /* PostDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
 		71A31A7D1EAA4C3A0073CD04 /* PostList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		71A31A801EAA4CF90073CD04 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
@@ -121,18 +134,53 @@
 		710DB6041ECCBE6E00A89F50 /* ProsvetTests */ = {
 			isa = PBXGroup;
 			children = (
-				710DB6051ECCBE6E00A89F50 /* ProsvetTests.swift */,
 				710DB6071ECCBE6E00A89F50 /* Info.plist */,
+				710DB6051ECCBE6E00A89F50 /* ProsvetTests.swift */,
 			);
 			path = ProsvetTests;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		710DB60D1ECCBFFA00A89F50 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
 				710DB60E1ECCC02100A89F50 /* Constants.swift */,
 			);
-			name = Constants;
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		710DB6871ED1AE9600A89F50 /* MainCell */ = {
+			isa = PBXGroup;
+			children = (
+				71A31A801EAA4CF90073CD04 /* MainCell.swift */,
+				71A31A821EAA4CFE0073CD04 /* MainCell.xib */,
+			);
+			path = MainCell;
+			sourceTree = "<group>";
+		};
+		710DB68A1ED1B87700A89F50 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				710DB68B1ED1B88A00A89F50 /* Event+CoreDataClass.swift */,
+				710DB68C1ED1B88A00A89F50 /* Event+CoreDataProperties.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		710DB6951ED2ECA600A89F50 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				710DB6991ED2F0E300A89F50 /* Md5-Bridging-Header.h */,
+				710DB6961ED2ECC400A89F50 /* Md5.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		710DB69A1ED2F5D300A89F50 /* AppUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				710DB69B1ED2F5F500A89F50 /* AppUserSettings.swift */,
+			);
+			path = AppUserDefaults;
 			sourceTree = "<group>";
 		};
 		71A31A781EAA4AD50073CD04 /* PostDetail */ = {
@@ -147,6 +195,7 @@
 		71A31A791EAA4ADC0073CD04 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				710DB69F1ED302BB00A89F50 /* PostDetail.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,8 +211,7 @@
 		71A31A7F1EAA4CEE0073CD04 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				71A31A801EAA4CF90073CD04 /* MainCell.swift */,
-				71A31A821EAA4CFE0073CD04 /* MainCell.xib */,
+				710DB6871ED1AE9600A89F50 /* MainCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -214,8 +262,6 @@
 			children = (
 				71DFDF491EA53432007BABAE /* LaunchScreen.storyboard */,
 				71F2A2CC1EABCECC00B280B0 /* LounchScreen.swift */,
-				71A31A6E1EAA464F0073CD04 /* Main.storyboard */,
-				71A31A761EAA49BC0073CD04 /* PostDetail.storyboard */,
 			);
 			path = SplashScreen;
 			sourceTree = "<group>";
@@ -223,11 +269,11 @@
 		71DFDF531EA5363A007BABAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				710DB5FD1ECC55CB00A89F50 /* token.api */,
 				71DFDF3D1EA53432007BABAE /* AppDelegate.swift */,
 				71DFDF471EA53432007BABAE /* Assets.xcassets */,
 				71DFDF4C1EA53432007BABAE /* Info.plist */,
 				71DFDF441EA53432007BABAE /* Prosvet.xcdatamodeld */,
+				710DB5FD1ECC55CB00A89F50 /* token.api */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -235,11 +281,13 @@
 		71DFDF541EA53647007BABAE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				710DB69A1ED2F5D300A89F50 /* AppUserDefaults */,
 				710DB60D1ECCBFFA00A89F50 /* Constants */,
 				71DFDF561EA5365A007BABAE /* Controllers */,
 				71F2A2C91EABCE1E00B280B0 /* Localize */,
 				71DFDF571EA53661007BABAE /* Models */,
 				71DFDF8B1EA7B560007BABAE /* Network */,
+				710DB6951ED2ECA600A89F50 /* Utilities */,
 				71DFDF551EA53650007BABAE /* Views */,
 			);
 			path = Common;
@@ -248,6 +296,7 @@
 		71DFDF551EA53650007BABAE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				710DB69D1ED3028500A89F50 /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,7 +314,10 @@
 			isa = PBXGroup;
 			children = (
 				71A31A7F1EAA4CEE0073CD04 /* Cells */,
+				710DB68A1ED1B87700A89F50 /* Event */,
+				710DB6851ED1AA5900A89F50 /* CellViewModel.swift */,
 				71C058AA1EA7D17E0010ED42 /* NetModel.swift */,
+				710DB6881ED1AEF800A89F50 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -393,11 +445,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71A31A6F1EAA464F0073CD04 /* Main.storyboard in Resources */,
-				71A31A771EAA49BC0073CD04 /* PostDetail.storyboard in Resources */,
 				71DFDF4B1EA53432007BABAE /* LaunchScreen.storyboard in Resources */,
 				71A31A831EAA4CFE0073CD04 /* MainCell.xib in Resources */,
 				71A31A891EAB5EB20073CD04 /* Localizable.strings in Resources */,
+				710DB6A01ED302BB00A89F50 /* PostDetail.storyboard in Resources */,
+				710DB69E1ED3028500A89F50 /* Main.storyboard in Resources */,
 				710DB5FE1ECC55CB00A89F50 /* token.api in Resources */,
 				71DFDF481EA53432007BABAE /* Assets.xcassets in Resources */,
 			);
@@ -466,9 +518,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710DB68E1ED1B88A00A89F50 /* Event+CoreDataProperties.swift in Sources */,
+				710DB69C1ED2F5F500A89F50 /* AppUserSettings.swift in Sources */,
 				71DFDF911EA7BC38007BABAE /* NetApi.swift in Sources */,
 				71A31A7E1EAA4C3A0073CD04 /* PostList.swift in Sources */,
 				71DFDF8F1EA7BC2C007BABAE /* CheckInternet.swift in Sources */,
+				710DB68D1ED1B88A00A89F50 /* Event+CoreDataClass.swift in Sources */,
 				71F2A2CD1EABCECC00B280B0 /* LounchScreen.swift in Sources */,
 				71DFDF401EA53432007BABAE /* MainVC.swift in Sources */,
 				71A31A811EAA4CF90073CD04 /* MainCell.swift in Sources */,
@@ -476,9 +531,12 @@
 				71F2A2CB1EABCE4100B280B0 /* String.swift in Sources */,
 				71A31A7C1EAA4B0E0073CD04 /* PostDetail.swift in Sources */,
 				71DFDF3E1EA53432007BABAE /* AppDelegate.swift in Sources */,
+				710DB6861ED1AA5900A89F50 /* CellViewModel.swift in Sources */,
+				710DB6891ED1AEF800A89F50 /* Post.swift in Sources */,
 				71DFDF8D1EA7BC20007BABAE /* SwiftyJSON.swift in Sources */,
 				710DB60F1ECCC02100A89F50 /* Constants.swift in Sources */,
 				71C058AB1EA7D17E0010ED42 /* NetModel.swift in Sources */,
+				710DB6971ED2ECC400A89F50 /* Md5.swift in Sources */,
 				71A31A851EAA50870073CD04 /* SegueRight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,8 +716,10 @@
 				);
 				INFOPLIST_FILE = "Prosvet/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.Prosvet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/adeveloper/home/Swift/Prosvet/ProsvetGitHub/Prosvet/Common/Utilities/Md5-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -679,8 +739,10 @@
 				);
 				INFOPLIST_FILE = "Prosvet/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = adeveloper.Prosvet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/adeveloper/home/Swift/Prosvet/ProsvetGitHub/Prosvet/Common/Utilities/Md5-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -695,6 +757,7 @@
 				710DB60C1ECCBE6E00A89F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		71DFDF351EA53431007BABAE /* Build configuration list for PBXProject "Prosvet" */ = {
 			isa = XCConfigurationList;
